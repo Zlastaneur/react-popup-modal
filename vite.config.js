@@ -6,7 +6,8 @@ export default defineConfig({
         lib: {
             entry: "src/index.jsx",
             name: "ReactPopupModal",
-            fileName: (format) => `react-popup-modal.${format}.js`,
+            fileName: (format) => `index.${format}.js`,
+            formats: ["es", "cjs"],
         },
         rollupOptions: {
             external: ["react", "react-dom"],
