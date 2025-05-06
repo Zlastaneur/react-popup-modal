@@ -16,8 +16,8 @@ Here is an example of how to use the component in a React project:
 
 ```jsx
 import React from "react"
-import Modal from "react-popup-modal"
-import "react-popup-modal/dist/react-popup-modal.css"
+import Modal from "@stanlito/react-popup-modal"
+import "@stanlito/react-popup-modal/dist/react-popup-modal.css"
 
 function App() {
 	return (
